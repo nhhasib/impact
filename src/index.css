@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-nav{
+    background-image: url(/src/assets/images/Rectangle 3343.png);
+    
+}
+.bg-banner{
+    background: linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)), url('/src/assets/images/Rectangle\ 3346.png');
+    height: 827px;
+}
+.bg-welcome{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('/src/assets/images/Rectangle\ 3410.png');
+    height: 534px;
+}
+.bg-card1{
+    background: url('/src/assets/images/Rectangle\ 3385.png'), lightgray 50% / cover no-repeat;
+    height: 303px;
+}
+.bg-card2{
+    background: url('/src/assets/images/Rectangle\ 3385\ \(1\).png'), lightgray 50% / cover no-repeat;
+    height: 303px;
+}
+.bg-card4{
+    background: url('/src/assets/images/Rectangle\ 3385\ \(3\).png'), lightgray 50% / cover no-repeat;
+    height: 303px;
+}
+.bg-currencies{
+    background: url('/src//assets//images//pngegg\ 1.png'), lightgray -75.114px -129px / 137.929% 157.435% no-repeat;
+    height: 538px;
+    background-color: black;
+}
+.bg-speakers{
+   
+background: linear-gradient(rgba(23, 44, 39, 1),rgba(23, 44, 39, 1)), url('/src/assets/images/pngegg\ 1.png');
+}
+.bg-card{
+    background: url('/src/assets/images/Rectangle\ 3385.png'), lightgray 0px -9.847px / 100% 135.834% no-repeat;;
+}
+.bg-footer{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('/src//assets/images/Rectangle\ 3381\ \(1\).png');
+    height: 439px;
+}
+
+.btn-common{
+    background-color: #F34509;
+    border-radius: 50px;
+    padding: 14px 30px;
+    color: white;
+}
+.btn-border{
+    border: 1px solid #F34509;
+    border-radius: 50px;
+    padding: 14px 30px;
+    color: white;
+}
+.btn-wlcm{
+    padding: 15px 36px;
+    background-color: #179748;
+    border-radius: 50px;
+}
